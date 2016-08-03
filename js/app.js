@@ -81,7 +81,7 @@ var Imagelist = React.createClass({
         url = "http://pre11.deviantart.net/0e0f/th/pre/f/2010/189/d/f/trollface_by_deniskapwnz.png";
       }
       return (
-        <div className="title-image">
+        <div key={image.data.id} className="title-image">
           <span className="title">{image.data.title}</span>
           <Image src={url} />
         </div>
