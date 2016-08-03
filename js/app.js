@@ -1,7 +1,7 @@
 
 var config = {
   baseUrl:"http://www.reddit.com",
-  affixUrl: "/new/.json?jsonp=?",
+  affixUrl: "/top/.json?jsonp=?",
   classes: {
     loader: 'loader'
   },
